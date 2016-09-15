@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html data-ng-app="musicApp">
+
+  <head>
+    <script data-require="angular.js@*" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.5.8" src="https://code.angularjs.org/1.5.8/angular-route.js"></script>
+    <link data-require="bootstrap@*" data-semver="3.3.6" rel="stylesheet" href="bootstrap" />
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://bootswatch.com/slate/bootstrap.min.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>
+            <span class="glyphicon glyphicon-headphones"></span> Music artists</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+        <div data-ng-view></div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
